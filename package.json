@@ -5,11 +5,12 @@
   "main": "app.js",
   "scripts": {
     "start": "node app",
-    "dev" : "nodemon app"
+    "dev": "nodemon express/app"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.2",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
